@@ -403,18 +403,18 @@ margin: 13% 10px 0px 10px;
     text-align: center;
 }
 .icons{
-   width: 50px;
-   height: 50px;
-   border-radius: 30%;
+   width: 45px;
+   height: 45px;
+   border-radius: 20px;
    display: flex;
    justify-content: center;
-   text-align: center; 
+   align-items: center;
    background-color:rgb(2, 6, 69);
    margin-right: 20px;
 
 }
 .icons:hover{
-    background-image:linear-gradient(to bottom left, rgb(7, 7, 7),rgb(234, 0, 0));
+    background-image: linear-gradient(to top right, yellow,red,blue);
 }
 .linkicons:hover{
     color: black;
@@ -424,9 +424,26 @@ margin: 13% 10px 0px 10px;
     font-weight: 600;
     margin-top: 50px;
 }
+.uparrow{
+    float: right;
+    font-size: 40px;
+    color: black;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(2, 6, 69);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    color: white;
+}
+.uparrow:hover{
+    background-image: linear-gradient(to top right, yellow,red,blue);
+}
 
 
 
 html{
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
